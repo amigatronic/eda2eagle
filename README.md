@@ -1,3 +1,4 @@
+
 # eda2eagle
 
 > **Status:** Experimental · Ambitious · Work-in-progress
@@ -26,6 +27,8 @@ The output format is deliberately **Eagle XML** because it is the de-facto inter
 
 In other words: one converter, **every major EDA** — free or commercial.
 
+![](tmpsxlivw82.jpg)
+
 ## What it does today
 
 - **Format autodetection** from file content (not extension): KiCad `.net`, SPICE `.cir`, PADS ASCII `.asc`, CadStar `.txt`.
@@ -36,6 +39,7 @@ In other words: one converter, **every major EDA** — free or commercial.
 - **Preview rendering** with `matplotlib` so you can tune clearance before committing to the final file.
 - **Dual interface:** CLI for scripting, GUI (tkinter) for double-click usage on Windows.
 
+![](tmpsxlivw82_1.jpg)
 ## What it does NOT do (yet)
 
 - It does **not** read PDFs, images, or raster scans.
